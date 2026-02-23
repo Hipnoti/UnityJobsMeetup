@@ -47,7 +47,7 @@ public class ProceduralDemo : MonoBehaviour
                 scale = noiseScale
             };
 
-            JobHandle handle = job.Schedule(dataSize, 64);
+            JobHandle handle = job.Schedule(dataSize, 2000);
             
             while (!handle.IsCompleted)
             {
