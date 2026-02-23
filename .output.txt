@@ -1,0 +1,258 @@
+﻿
+    Directory: C:\Program
+    Files\Unity\Hub\Editor\2022.3.38f1\Editor\Data\Managed\UnityEngine
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         7/10/2024  12:10 AM        1531392 UnityEngine.CoreModule.dll
+    Directory: C:\Program Files\Unity\Hub\Editor\2022.3.38f1\Editor\Data\Playba
+    ckEngines\AndroidPlayer\Variations\il2cpp\Managed
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         7/10/2024  12:03 AM        1348608 UnityEngine.CoreModule.dll
+    Directory: C:\Program Files\Unity\Hub\Editor\2022.3.38f1\Editor\Data\Playba
+    ckEngines\AndroidPlayer\Variations\mono\Managed
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         7/10/2024  12:00 AM        1348608 UnityEngine.CoreModule.dll
+    Directory: C:\Program Files\Unity\Hub\Editor\2022.3.38f1\Editor\Data\Playba
+    ckEngines\windowsstandalonesupport\Variations\il2cpp\Managed
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         7/10/2024  12:47 AM        1387200 UnityEngine.CoreModule.dll
+    Directory: C:\Program Files\Unity\Hub\Editor\2022.3.38f1\Editor\Data\Playba
+    ckEngines\windowsstandalonesupport\Variations\mono\Managed
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         7/10/2024  12:48 AM        1386688 UnityEngine.CoreModule.dll
+    Directory: C:\Program Files\Unity\Hub\Editor\2022.3.38f1\Editor\Data\Playba
+    ckEngines\windowsstandalonesupport\Variations\win32_player_development_il2c
+    pp\Data\Managed
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         7/10/2024  12:48 AM        1387200 UnityEngine.CoreModule.dll
+    Directory: C:\Program Files\Unity\Hub\Editor\2022.3.38f1\Editor\Data\Playba
+    ckEngines\windowsstandalonesupport\Variations\win32_player_development_mono
+    \Data\Managed
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         7/10/2024  12:49 AM        1386688 UnityEngine.CoreModule.dll
+    Directory: C:\Program Files\Unity\Hub\Editor\2022.3.38f1\Editor\Data\Playba
+    ckEngines\windowsstandalonesupport\Variations\win32_player_nondevelopment_i
+    l2cpp\Data\Managed
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         7/10/2024  12:48 AM        1387200 UnityEngine.CoreModule.dll
+    Directory: C:\Program Files\Unity\Hub\Editor\2022.3.38f1\Editor\Data\Playba
+    ckEngines\windowsstandalonesupport\Variations\win32_player_nondevelopment_m
+    ono\Data\Managed
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         7/10/2024  12:50 AM        1386688 UnityEngine.CoreModule.dll
+    Directory: C:\Program Files\Unity\Hub\Editor\2022.3.38f1\Editor\Data\Playba
+    ckEngines\windowsstandalonesupport\Variations\win64_player_development_il2c
+    pp\Data\Managed
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         7/10/2024  12:48 AM        1387200 UnityEngine.CoreModule.dll
+    Directory: C:\Program Files\Unity\Hub\Editor\2022.3.38f1\Editor\Data\Playba
+    ckEngines\windowsstandalonesupport\Variations\win64_player_development_mono
+    \Data\Managed
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         7/10/2024  12:50 AM        1386688 UnityEngine.CoreModule.dll
+    Directory: C:\Program Files\Unity\Hub\Editor\2022.3.38f1\Editor\Data\Playba
+    ckEngines\windowsstandalonesupport\Variations\win64_player_nondevelopment_i
+    l2cpp\Data\Managed
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         7/10/2024  12:48 AM        1387200 UnityEngine.CoreModule.dll
+    Directory: C:\Program Files\Unity\Hub\Editor\2022.3.38f1\Editor\Data\Playba
+    ckEngines\windowsstandalonesupport\Variations\win64_player_nondevelopment_m
+    ono\Data\Managed
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         7/10/2024  12:50 AM        1386688 UnityEngine.CoreModule.dll
+    Directory: C:\Program
+    Files\Unity\Hub\Editor\6000.0.47f1\Editor\Data\Managed\UnityEngine
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         4/10/2025   7:05 AM        1963520 UnityEngine.CoreModule.dll
+    Directory: C:\Program Files\Unity\Hub\Editor\6000.0.47f1\Editor\Data\Playba
+    ckEngines\windowsstandalonesupport\Variations\mono\Managed
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         4/10/2025   7:43 AM        1794232 UnityEngine.CoreModule.dll
+    Directory: C:\Program Files\Unity\Hub\Editor\6000.0.47f1\Editor\Data\Playba
+    ckEngines\windowsstandalonesupport\Variations\win32_player_development_mono
+    \Data\Managed
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         4/10/2025   7:43 AM        1794232 UnityEngine.CoreModule.dll
+    Directory: C:\Program Files\Unity\Hub\Editor\6000.0.47f1\Editor\Data\Playba
+    ckEngines\windowsstandalonesupport\Variations\win32_player_nondevelopment_m
+    ono\Data\Managed
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         4/10/2025   7:44 AM        1794232 UnityEngine.CoreModule.dll
+    Directory: C:\Program Files\Unity\Hub\Editor\6000.0.47f1\Editor\Data\Playba
+    ckEngines\windowsstandalonesupport\Variations\win64_player_development_mono
+    \Data\Managed
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         4/10/2025   7:44 AM        1794232 UnityEngine.CoreModule.dll
+    Directory: C:\Program Files\Unity\Hub\Editor\6000.0.47f1\Editor\Data\Playba
+    ckEngines\windowsstandalonesupport\Variations\win64_player_nondevelopment_m
+    ono\Data\Managed
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         4/10/2025   7:44 AM        1794232 UnityEngine.CoreModule.dll
+    Directory: C:\Program Files\Unity\Hub\Editor\6000.0.47f1\Editor\Data\Playba
+    ckEngines\windowsstandalonesupport\Variations\win_arm64_player_development_
+    mono\Data\Managed
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         4/10/2025   7:28 AM        1794232 UnityEngine.CoreModule.dll
+    Directory: C:\Program Files\Unity\Hub\Editor\6000.0.47f1\Editor\Data\Playba
+    ckEngines\windowsstandalonesupport\Variations\win_arm64_player_nondevelopme
+    nt_mono\Data\Managed
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         4/10/2025   7:28 AM        1794232 UnityEngine.CoreModule.dll
+    Directory: C:\Program
+    Files\Unity\Hub\Editor\6000.3.0f1\Editor\Data\Managed\UnityEngine
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        11/21/2025   5:23 AM        2171392 UnityEngine.CoreModule.dll
+    Directory: C:\Program Files\Unity\Hub\Editor\6000.3.0f1\Editor\Data\Playbac
+    kEngines\windowsstandalonesupport\Variations\mono\Managed
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        11/21/2025   6:03 AM        1981352 UnityEngine.CoreModule.dll
+    Directory: C:\Program Files\Unity\Hub\Editor\6000.3.0f1\Editor\Data\Playbac
+    kEngines\windowsstandalonesupport\Variations\win32_player_development_mono\
+    Data\Managed
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        11/21/2025   6:04 AM        1981352 UnityEngine.CoreModule.dll
+    Directory: C:\Program Files\Unity\Hub\Editor\6000.3.0f1\Editor\Data\Playbac
+    kEngines\windowsstandalonesupport\Variations\win32_player_nondevelopment_mo
+    no\Data\Managed
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        11/21/2025   6:04 AM        1981360 UnityEngine.CoreModule.dll
+    Directory: C:\Program Files\Unity\Hub\Editor\6000.3.0f1\Editor\Data\Playbac
+    kEngines\windowsstandalonesupport\Variations\win64_player_development_mono\
+    Data\Managed
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        11/21/2025   6:04 AM        1981360 UnityEngine.CoreModule.dll
+    Directory: C:\Program Files\Unity\Hub\Editor\6000.3.0f1\Editor\Data\Playbac
+    kEngines\windowsstandalonesupport\Variations\win64_player_nondevelopment_mo
+    no\Data\Managed
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        11/21/2025   6:04 AM        1981352 UnityEngine.CoreModule.dll
+    Directory: C:\Program Files\Unity\Hub\Editor\6000.3.0f1\Editor\Data\Playbac
+    kEngines\windowsstandalonesupport\Variations\win_arm64_player_development_m
+    ono\Data\Managed
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        11/21/2025   5:56 AM        1981352 UnityEngine.CoreModule.dll
+    Directory: C:\Program Files\Unity\Hub\Editor\6000.3.0f1\Editor\Data\Playbac
+    kEngines\windowsstandalonesupport\Variations\win_arm64_player_nondevelopmen
+    t_mono\Data\Managed
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        11/21/2025   5:56 AM        1981352 UnityEngine.CoreModule.dll
+    Directory: C:\Program
+    Files\Unity\Hub\Editor\6000.3.7f1\Editor\Data\Managed\UnityEngine
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         1/28/2026   1:41 AM        2171904 UnityEngine.CoreModule.dll
+    Directory: C:\Program Files\Unity\Hub\Editor\6000.3.7f1\Editor\Data\Playbac
+    kEngines\windowsstandalonesupport\Variations\mono\Managed
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         1/28/2026   2:29 AM        1982376 UnityEngine.CoreModule.dll
+    Directory: C:\Program Files\Unity\Hub\Editor\6000.3.7f1\Editor\Data\Playbac
+    kEngines\windowsstandalonesupport\Variations\win32_player_development_mono\
+    Data\Managed
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         1/28/2026   2:30 AM        1982376 UnityEngine.CoreModule.dll
+    Directory: C:\Program Files\Unity\Hub\Editor\6000.3.7f1\Editor\Data\Playbac
+    kEngines\windowsstandalonesupport\Variations\win32_player_nondevelopment_mo
+    no\Data\Managed
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         1/28/2026   2:30 AM        1982384 UnityEngine.CoreModule.dll
+    Directory: C:\Program Files\Unity\Hub\Editor\6000.3.7f1\Editor\Data\Playbac
+    kEngines\windowsstandalonesupport\Variations\win64_player_development_mono\
+    Data\Managed
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         1/28/2026   2:30 AM        1982376 UnityEngine.CoreModule.dll
+    Directory: C:\Program Files\Unity\Hub\Editor\6000.3.7f1\Editor\Data\Playbac
+    kEngines\windowsstandalonesupport\Variations\win64_player_nondevelopment_mo
+    no\Data\Managed
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         1/28/2026   2:30 AM        1982376 UnityEngine.CoreModule.dll
+    Directory: C:\Program Files\Unity\Hub\Editor\6000.3.7f1\Editor\Data\Playbac
+    kEngines\windowsstandalonesupport\Variations\win_arm64_player_development_m
+    ono\Data\Managed
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         1/28/2026   2:12 AM        1982376 UnityEngine.CoreModule.dll
+    Directory: C:\Program Files\Unity\Hub\Editor\6000.3.7f1\Editor\Data\Playbac
+    kEngines\windowsstandalonesupport\Variations\win_arm64_player_nondevelopmen
+    t_mono\Data\Managed
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         1/28/2026   2:12 AM        1982376 UnityEngine.CoreModule.dll
+    Directory: C:\Program
+    Files\Unity\Hub\Editor\6000.3.9f1\Editor\Data\Managed\UnityEngine
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         2/11/2026   1:42 AM        2171904 UnityEngine.CoreModule.dll
+    Directory: C:\Program Files\Unity\Hub\Editor\6000.3.9f1\Editor\Data\Playbac
+    kEngines\windowsstandalonesupport\Variations\mono\Managed
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         2/11/2026   2:28 AM        1982376 UnityEngine.CoreModule.dll
+    Directory: C:\Program Files\Unity\Hub\Editor\6000.3.9f1\Editor\Data\Playbac
+    kEngines\windowsstandalonesupport\Variations\win32_player_development_mono\
+    Data\Managed
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         2/11/2026   2:28 AM        1982376 UnityEngine.CoreModule.dll
+    Directory: C:\Program Files\Unity\Hub\Editor\6000.3.9f1\Editor\Data\Playbac
+    kEngines\windowsstandalonesupport\Variations\win32_player_nondevelopment_mo
+    no\Data\Managed
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         2/11/2026   2:28 AM        1982384 UnityEngine.CoreModule.dll
+    Directory: C:\Program Files\Unity\Hub\Editor\6000.3.9f1\Editor\Data\Playbac
+    kEngines\windowsstandalonesupport\Variations\win64_player_development_mono\
+    Data\Managed
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         2/11/2026   2:29 AM        1982376 UnityEngine.CoreModule.dll
+    Directory: C:\Program Files\Unity\Hub\Editor\6000.3.9f1\Editor\Data\Playbac
+    kEngines\windowsstandalonesupport\Variations\win64_player_nondevelopment_mo
+    no\Data\Managed
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         2/11/2026   2:29 AM        1982384 UnityEngine.CoreModule.dll
+    Directory: C:\Program Files\Unity\Hub\Editor\6000.3.9f1\Editor\Data\Playbac
+    kEngines\windowsstandalonesupport\Variations\win_arm64_player_development_m
+    ono\Data\Managed
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         2/11/2026   2:10 AM        1982384 UnityEngine.CoreModule.dll
+    Directory: C:\Program Files\Unity\Hub\Editor\6000.3.9f1\Editor\Data\Playbac
+    kEngines\windowsstandalonesupport\Variations\win_arm64_player_nondevelopmen
+    t_mono\Data\Managed
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         2/11/2026   2:10 AM        1982376 UnityEngine.CoreModule.dll

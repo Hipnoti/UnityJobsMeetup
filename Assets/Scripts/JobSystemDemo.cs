@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
 using Unity.Jobs;
 using UnityEngine.Jobs;
-using Unity.Collections;
 
 public class JobSystemDemo : MonoBehaviour
 {
@@ -12,20 +11,10 @@ public class JobSystemDemo : MonoBehaviour
 
     [Header("Performance")]
     public bool useJobSystem = true;
+    public bool useParallelJob = true;
 
     private TransformAccessArray transformAccessArray;
     private Transform[] transformReferences;
-
-    struct MoveJob : IJobParallelForTransform
-    {
-        public float deltaTime;
-        public float speed;
-
-        public void Execute(int index, TransformAccess transform)
-        {
-            transform.position += transform.rotation * Vector3.forward * speed * deltaTime;
-        }
-    }
 
     void Start()
     {
@@ -59,9 +48,16 @@ public class JobSystemDemo : MonoBehaviour
             deltaTime = Time.deltaTime,
             speed = moveSpeed
         };
-
-        JobHandle handle = moveJob.Schedule(transformAccessArray);
-        handle.Complete();
+        
+        if (useParallelJob)
+        {
+            JobHandle handle = moveJob.Schedule(transformAccessArray);
+            handle.Complete();
+        }
+        else
+        {
+            moveJob.RunReadOnly(transformAccessArray);
+        }
     }
 
     void UpdateTraditional()
