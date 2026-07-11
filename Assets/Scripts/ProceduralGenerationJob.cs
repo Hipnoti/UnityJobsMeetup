@@ -4,7 +4,7 @@ using Unity.Jobs;
 using Unity.Mathematics;
 using UnityEngine;
 
-[BurstCompile]
+//[BurstCompile]
 public struct ProceduralGenerationJob : IJobParallelFor
 {
     [ReadOnly] public NativeArray<float3> positions;

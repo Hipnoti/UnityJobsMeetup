@@ -6,19 +6,11 @@ using UnityEngine.Jobs;
 
 public class JobSystemDemo : MonoBehaviour
 {
-    public enum JobType { Move, Procedural }
-
-    public JobType jobType = JobType.Move;
-    
     [Header("Movement Settings")]
     public GameObject prefab;
     public int spawnCount = 40000;
     public float moveSpeed = 5f;
     
-    [Header("Procedural Settings")]
-    public int noiseIterations = 10;
-    public float noiseScale = 0.1f;
-
     [Header("Performance")]
     public bool useJobSystem = true;
     public bool useParallelJob = true;
@@ -52,14 +44,7 @@ public class JobSystemDemo : MonoBehaviour
 
     void Update()
     {
-        if (jobType == JobType.Move)
-        {
-            UpdateMove();
-        }
-        else
-        {
-            UpdateProcedural();
-        }
+        UpdateMove();
     }
 
     void UpdateMove()
@@ -86,47 +71,7 @@ public class JobSystemDemo : MonoBehaviour
             moveJob.Schedule(transformAccessArray).Complete();
         }
     }
-
-    void UpdateProcedural()
-    {
-        // Sync positions for procedural job
-        for (int i = 0; i < spawnCount; i++)
-        {
-            positions[i] = transformReferences[i].position;
-        }
-
-        if (!useJobSystem)
-        {
-            UpdateProceduralTraditional();
-            return;
-        }
-
-        ProceduralGenerationJob procJob = new ProceduralGenerationJob
-        {
-            positions = positions,
-            results = results,
-            iterations = noiseIterations,
-            scale = noiseScale
-        };
-
-        if (useParallelJob)
-        {
-            JobHandle handle = procJob.Schedule(spawnCount, 64);
-            handle.Complete();
-        }
-        else
-        {
-            procJob.Run(spawnCount);
-        }
-        
-        // Use results to do something (e.g. adjust height)
-        for (int i = 0; i < spawnCount; i++)
-        {
-            Vector3 pos = transformReferences[i].position;
-            pos.y = results[i];
-            transformReferences[i].position = pos;
-        }
-    }
+    
 
     void UpdateMoveTraditional()
     {
@@ -134,28 +79,6 @@ public class JobSystemDemo : MonoBehaviour
         for (int i = 0; i < transformReferences.Length; i++)
         {
             transformReferences[i].position += transformReferences[i].rotation * Vector3.forward * (moveSpeed * dt);
-        }
-    }
-
-    void UpdateProceduralTraditional()
-    {
-        for (int index = 0; index < spawnCount; index++)
-        {
-            float3 pos = (float3)transformReferences[index].position * noiseScale;
-            float value = 0;
-
-            for (int i = 0; i < noiseIterations; i++)
-            {
-                float freq = math.pow(2f, i);
-                float amp = math.pow(0.5f, i);
-                value += noise.snoise(pos * freq) * amp;
-            }
-
-            results[index] = value;
-            
-            Vector3 finalPos = transformReferences[index].position;
-            finalPos.y = results[index];
-            transformReferences[index].position = finalPos;
         }
     }
 
