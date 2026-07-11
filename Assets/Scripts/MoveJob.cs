@@ -2,7 +2,7 @@
 using UnityEngine;
 using UnityEngine.Jobs;
 
-[BurstCompile]
+//[BurstCompile]
 public struct MoveJob : IJobParallelForTransform
 {
     public float deltaTime;

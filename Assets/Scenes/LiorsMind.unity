@@ -282,7 +282,7 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 410087039}
   m_Enabled: 1
-  serializedVersion: 12
+  serializedVersion: 13
   m_Type: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 2
@@ -334,7 +334,7 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
-  m_ShadowRadius: 0
+  m_ShapeRadius: 0
   m_ShadowAngle: 0
   m_LightUnit: 1
   m_LuxAtDistance: 1
@@ -479,8 +479,11 @@ MonoBehaviour:
   prefab: {fileID: 2406863029228070473, guid: 70c4f6c4f4f958243a8f3bd8f2ec0dec, type: 3}
   spawnCount: 40000
   moveSpeed: 5
-  useJobSystem: 1
-  useParallelJob: 1
+  jobType: 0
+  noiseIterations: 10
+  noiseScale: 0.1
+  useJobSystem: 0
+  useParallelJob: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
