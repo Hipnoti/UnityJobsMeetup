@@ -8,12 +8,13 @@ public class JobSystemDemo : MonoBehaviour
 {
     public enum JobType { Move, Procedural }
 
-    [Header("Setup")]
+    public JobType jobType = JobType.Move;
+    
+    [Header("Movement Settings")]
     public GameObject prefab;
     public int spawnCount = 40000;
     public float moveSpeed = 5f;
-    public JobType jobType = JobType.Move;
-
+    
     [Header("Procedural Settings")]
     public int noiseIterations = 10;
     public float noiseScale = 0.1f;
@@ -82,7 +83,7 @@ public class JobSystemDemo : MonoBehaviour
         }
         else
         {
-            moveJob.RunReadOnly(transformAccessArray);
+            moveJob.Schedule(transformAccessArray).Complete();
         }
     }
 

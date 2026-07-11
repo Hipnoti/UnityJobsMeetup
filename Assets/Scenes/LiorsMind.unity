@@ -476,10 +476,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b823394aa04c59bd0385bfbecbf386, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::JobSystemDemo
+  jobType: 0
   prefab: {fileID: 2406863029228070473, guid: 70c4f6c4f4f958243a8f3bd8f2ec0dec, type: 3}
   spawnCount: 40000
   moveSpeed: 5
-  jobType: 0
   noiseIterations: 10
   noiseScale: 0.1
   useJobSystem: 0
